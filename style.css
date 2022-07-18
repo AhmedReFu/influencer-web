@@ -110,6 +110,7 @@ body{
     background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 5px 15px 15px rgb(247, 173, 173);
 }
 .main-tripod img{
     border-radius: 10px;
