@@ -1,0 +1,175 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 241, 241);
+}
+.nav{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.nav h2{
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.nav h2 span{
+    color: rgb(252, 22, 148);
+}
+.nav-link{
+    display: flex;
+    list-style: none;  
+}
+.nav-link a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.nav-link a:hover{
+    color: rgb(252, 22, 148);
+}
+.conatiner-1{
+     padding-bottom: 500px;
+}
+.heading-parent{
+    display: flex;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.container-1-heading{
+    width: 50%;
+    padding-left: 10%;
+    
+}
+.container-1-heading h1{
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+.container-1-heading P{
+    font-size: 22PX;
+    margin-bottom: 60px;
+    line-height: 50px;
+}
+.container-1-heading a{
+    text-decoration: none;
+    background-color: rgb(240, 9, 136);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 30px;
+}
+
+.top-camera{
+    width: 50%;
+    
+}
+.top-camera img{
+    width: 80%;
+    padding-left: 50px; 
+}
+.section-2-logo{
+    text-align: center;
+    margin-bottom: 150px;
+    border-top: 2px solid rgb(223, 220, 220);
+    border-bottom: 2px solid rgb(223, 220, 220);
+    padding: 50px 0;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+#walmart{
+    width: 150px;
+}
+.section-2-logo img{
+    margin-right: 80px;
+    width: 130px;
+    align-items: center;
+}
+.section-2-title{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(71, 70, 70);
+    margin-bottom: 60px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+     
+}
+.tripod img{
+    width: 100%;
+}
+.main-tripod{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+}
+.main-tripod img{
+    border-radius: 10px;
+}
+.price{
+    font-size: 25px;
+}
+.details{
+    font-size: 25px;
+}
+.see-more{
+    text-align: right;
+    font-size: 25px;
+    margin-right: 220px;
+}
+.see-more a{
+    text-decoration: none;
+    color: rgb(240, 9, 136);
+}
+.con-3-parent{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.con-3-sec-1{
+    width: 50%;
+    margin-left: 20px;
+}
+.con-3-sec-2{
+    width: 50%;
+
+    margin-right: 80px;
+}
+.con-3-sec-1 img{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.con-3-sec-2 h1{
+    font-size: 50px;
+}
+.con-3-sec-2 p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    
+}
+.con-3-sec-2 a{
+    text-decoration: none;
+    background-color: rgb(240, 9, 136);
+    color: white;
+    padding: 12px 50px;
+}
+.footer{
+    background-color: rgb(10, 0, 27);
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 100px;
+    color: white;
+}
+.footer p{
+    font-size: 20px;
+}
