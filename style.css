@@ -5,30 +5,47 @@ body{
     background-color: rgb(255, 241, 241);
 }
 .nav{
-    margin: 50px 0;
+    padding: 20px 0;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
-    margin-right: 10%;
-    margin-left: 10%;
+    background-color: rgb(3, 0, 7);
 }
 .nav h2{
+    color: white;
     letter-spacing: 3px;
     font-size: 25px;
+    padding-left: 200px;
 }
 .nav h2 span{
     color: rgb(252, 22, 148);
 }
 .nav-link{
     display: flex;
-    list-style: none;  
+    list-style: none;
+    padding-right: 200px;  
 }
 .nav-link a{
     text-decoration: none;
     margin: 0 20px;
     font-size: 20px;
+    color: rgb(240, 9, 136);
 }
 .nav-link a:hover{
-    color: rgb(252, 22, 148);
+    color: rgb(2, 0, 12);
+    background-color: rgb(244, 244, 247);
+    padding: 5px 15px;
+    border-radius: 18px;
+}
+.fa-user{
+    color: rgb(240, 9, 136);
+    font-size: 25px;
+    padding-left: 40px;
+}
+.fa-right-to-bracket{
+    color: rgb(240, 9, 136);
+    font-size: 25px;
+    padding-left: 60px;
 }
 .conatiner-1{
      padding-bottom: 500px;
@@ -43,6 +60,9 @@ body{
     padding-left: 10%;
     
 }
+.influ{
+    color: rgb(240, 9, 136);
+}
 .container-1-heading h1{
     font-size: 80px;
     margin-bottom: 0px;
@@ -56,10 +76,12 @@ body{
     text-decoration: none;
     background-color: rgb(240, 9, 136);
     padding: 10px 40px;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 30px;
 }
-
+.container-1-heading a:hover{
+    background-color: rgb(2, 1, 27);
+}
 .top-camera{
     width: 50%;
     
@@ -76,6 +98,7 @@ body{
     padding: 50px 0;
     margin-left: 10%;
     margin-right: 10%;
+    cursor: pointer;
 
 }
 #walmart{
@@ -124,11 +147,25 @@ body{
 .see-more{
     text-align: right;
     font-size: 25px;
-    margin-right: 220px;
+    margin-right: 10px;
 }
 .see-more a{
     text-decoration: none;
     color: rgb(240, 9, 136);
+}
+.see-more a:hover{
+    color: rgb(0, 0, 17);
+}
+.arrow-see{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.see{
+    margin-right: 200px;
+    font-size: 25px;
+    color: rgb(240, 9, 136);
+    align-items: center;
 }
 .con-3-parent{
     display: flex;
@@ -141,13 +178,14 @@ body{
 }
 .con-3-sec-2{
     width: 50%;
-
     margin-right: 80px;
 }
 .con-3-sec-1 img{
     width: 600px;
     margin-top: 50px;
     margin-left: 180px;
+    border: 3px solid rgb(240, 9, 136);
+    border-radius: 20px;
 }
 .con-3-sec-2 h1{
     font-size: 50px;
@@ -164,6 +202,9 @@ body{
     color: white;
     padding: 12px 50px;
 }
+.con-3-sec-2 a:hover{
+    background-color: rgb(2, 1, 27);
+}
 .footer{
     background-color: rgb(10, 0, 27);
     text-align: center;
@@ -172,5 +213,22 @@ body{
     color: white;
 }
 .footer p{
+    font-size: 20px;
+}
+.fa-star{
+    color: rgb(255, 187, 0);
+}
+.fa-star-half-stroke{
+    color: rgb(255, 187, 0);
+}
+#gray-icon{
+    color: rgb(211, 206, 206);
+}
+.rating-parent{
+    display: flex;
+    align-items: center;
+}
+.rating p{
+    padding-left: 15px;
     font-size: 20px;
 }
